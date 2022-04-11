@@ -1,0 +1,123 @@
+.jumbotron{
+background-image: url('https://wallpaperaccess.com/full/1393189.jpg');
+height: 400px;
+}
+#about, #skills, #education, #pr, #contact{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: rgb(23,67,108);
+    color: white;
+
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    
+   
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 30px;
+   
+}
+.navbar-nav{
+   
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.aboutme, .row, .edu, .address{
+    border: 1px solid black;
+    height: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 5px 5px rgb(23,67,108);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom:30px;
+}
+.row{
+    height:auto;
+    display:inline-flex;
+    justify-content: space-around;
+}
+#gra, #pu, #sslc{
+    border: 1px solid black;
+    height: auto;
+    margin: auto;
+    margin-block: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+    background-color: rgb(218, 214, 214);
+}
+.card{
+    display: inline-flex;
+}
+
+.group{
+    font-size: 50px;
+    padding-top: 20px;
+}
+footer{
+    color: white;
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+    background-color: rgb(23,67,108);
+    background-size: cover;
+    
+ }
+ .resume .btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: rgb(26, 26, 77);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.resume .btn-outline {
+    background-color: rgb(26, 26, 77);;
+    border: 1px #fff solid;
+}
+
+.resume .btn-primary {
+    color: #fff;
+}
+.resume .btn:hover {
+    transform: scale(0.8);
+
+}
+
+
+.morePara{
+    display: none;
+}
+#read-more-btn{
+    align-self: center;
+    margin-top: 40px;
+    background-color:rgb(26, 26, 77);
+    color: white;
+    width: 180px;
+    height: 40px;
+    
+}
+.para.show-more .morePara{
+    display: inline;
+}
+.para.show-more .dots{
+    display: none;
+}
+.icon{
+    padding-top:20px;
+}
